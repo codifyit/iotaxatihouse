@@ -1,4 +1,5 @@
 # Wellcome to AxaTeach!
+<a href="alternative text"><img src="url" align="middle" width="desired width" height="desired heigh"></a>
 
 New subjects in Professional Eduation let us the oportunity to introduce technologies such as IoT, virtual reality and aumented reality. This is just the beginin though we hope never ending. This new repository has been created to learn about new technologies. We love teaching and learning too!
 
