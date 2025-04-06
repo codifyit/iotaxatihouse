@@ -1,6 +1,6 @@
 # Wellcome to AxaTeach!
 
-<table style="border:0px"><tr><td width="30%"><img src="https://github.com/codifyit/iotaxatihouse/blob/main/readme/images/iotaxatiimg1.jpeg" align="center" width="50%">
+<table><tr style="border:0px"><td width="30%"><img src="https://github.com/codifyit/iotaxatihouse/blob/main/readme/images/iotaxatiimg1.jpeg" align="center" width="80%">
 </td><td>New subjects in Professional Eduation let us the oportunity to introduce technologies such as IoT, virtual reality and aumented reality. This is just the beginin though we hope never ending. This new repository has been created to learn about new technologies. We love teaching and learning too!</td></tr></table>
 
 
