@@ -14,7 +14,11 @@ The sketch includes code for default behavior.
 - When the gas sensor detects the gas with high concentration, the buzzer emits a "tick,tick" alarm sound.
 - When steam sensor detects rains, the servo 2 will be activated, the window will be closed automatically, otherwise, the window will be open. 
 
+## Things in the project
+
+<table><tr><th>Thing</th><th>Description</th></tr>
+<tr><td>Arduino Uno</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/arduino-uno.png" align="center" width="15%"></td></tr>
+</table>
 
 
-<img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/arduino-uno.png" align="center" width="25%">
 
