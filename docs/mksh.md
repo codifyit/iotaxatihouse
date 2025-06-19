@@ -16,5 +16,5 @@ The sketch includes code for default behavior.
 
 
 
-<img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/arduino-uno.png" align="center" width="90%">
+<img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/arduino-uno.png" align="center" width="40%">
 
