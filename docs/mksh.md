@@ -17,7 +17,7 @@ The sketch includes code for default behavior.
 ## Things in the project
 
 <table><tr><th>Thing</th><th>Description</th></tr>
-<tr><td>Arduino Uno</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/arduino-uno.png" align="center" width="15%"></td></tr>
+<tr><td>Arduino Uno</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/arduino-uno.png" align="center" width="25%"></td></tr>
 </table>
 
 
