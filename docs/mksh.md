@@ -35,5 +35,11 @@ The sketch includes code for default behavior.
   <tr><td>Bluetooth</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/bluetooth.png" align="center" width="25%"></td></tr>
 </table>
 
+## Connections diagrams
+
+<table><tr><td>Realy and white led<br><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/relay-white-led.png" align="center" width="50%"></td></tr>
+<tr><td>Realy and white led<br><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/relay-white-led.png" align="center" width="50%"></td></tr>
+</table>
+
 
 
