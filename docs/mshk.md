@@ -38,7 +38,10 @@ The sketch includes code for default behavior.
 ## Connections diagrams
 
 <table><tr><td>Realy and white led<br><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/relay-white-led.png" align="center" width="50%"></td></tr>
-<tr><td>Realy and white led<br><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/relay-white-led.png" align="center" width="50%"></td></tr>
+<tr><td>Fan connection<br><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/fan-connection.png" align="center" width="50%"></td></tr>
+<tr><td>Button and yellow led<br><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/button-yellow-led.png" align="center" width="50%"></td></tr>
+<tr><td>Button and gas sensor<br><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/button-gas.png" align="center" width="50%"></td></tr>
+<tr><td>Buzzer and infrared sensor<br><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/buzzer-infrared.png" align="center" width="50%"></td></tr>
 </table>
 
 
