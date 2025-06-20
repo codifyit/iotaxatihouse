@@ -42,6 +42,10 @@ The sketch includes code for default behavior.
 <tr><td>Button and yellow led<br><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/button-yellow-led.png" align="center" width="50%"></td></tr>
 <tr><td>Button and gas sensor<br><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/button-gas.png" align="center" width="50%"></td></tr>
 <tr><td>Buzzer and infrared sensor<br><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/buzzer-infrared.png" align="center" width="50%"></td></tr>
+<tr><td>Bluetooth connection<br><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/bluetooth-connection.png" align="center" width="50%"></td></tr>
+<tr><td>Display connection<br><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/display-connection.png" align="center" width="50%"></td></tr>
+<tr><td>Servos connection<br><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/servos-connection.png" align="center" width="50%"></td></tr>
+<tr><td>Light, humedity and water sensors connection<br><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/light-humedity-water.png" align="center" width="50%"></td></tr>
 </table>
 
 
