@@ -33,7 +33,7 @@ class Axled:public Axactuator{
 #endif</code>
 </td>
 </tr>
-<tr><td>White led</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/white-led.png" align="center" width="25%"></td>
+<tr><td>White led</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/white-led.png" align="center" width="25%"></td><td>
 <code>using namespace std;
 #include <Arduino.h>
 #include <Axactuator.h>
@@ -43,7 +43,7 @@ class Axled:public Axactuator{
 class Axled:public Axactuator{
 
 };
-#endif</code>
+#endif</code></td>
 </tr>
 <tr><td>Passive buzzer</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/passive-buzzer.png" align="center" width="25%"></td>
 <td>
