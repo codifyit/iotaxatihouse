@@ -21,7 +21,85 @@ The sketch includes code for default behavior.
 <tr><td>Sensor Shield V5.0</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/sensor-shield.png" align="center" width="25%"></td></tr>
 <tr><td>Yellow led</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/yellow-led.png" align="center" width="25%"></td></tr>
 <tr><td>White led</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/white-led.png" align="center" width="25%"></td></tr>
-<tr><td>Passive buzzer</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/passive-buzzer.png" align="center" width="25%"></td></tr>
+<tr><td>Passive buzzer</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/passive-buzzer.png" align="center" width="25%"></td>
+<td>
+  <code>
+    #include <Axactuator.h>
+#ifndef Axbuzzer_h
+#define Axbuzzer_h
+/*
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+Library with functions and variables to play sounds
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+*/
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------
+BUZZER CONFIG
+define name of every sound frequency
+-----------------------------------------------------------------------------------------------------------------------------
+*/
+#define D0 -1
+#define D1 262
+#define D2 293
+#define D3 329
+#define D4 349
+#define D5 392
+#define D6 440
+#define D7 494
+#define M1 523
+#define M2 586
+#define M3 658
+#define M4 697
+#define M5 783
+#define M6 879
+#define M7 987
+#define H1 1045
+#define H2 1171
+#define H3 1316
+#define H4 1393
+#define H5 1563
+#define H6 1755
+#define H7 1971
+
+#define WHOLE 1
+#define HALF 0.5
+#define QUARTER 0.25
+#define EIGHTH 0.25
+#define SIXTEENTH 0.625
+//-----------------------------------------------------------------------------------------------------------------------------
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------
+CLASS
+-----------------------------------------------------------------------------------------------------------------------------
+*/
+class Axbuzzer:public Axactuator{
+    private:
+        int length;
+        int tonepin;
+        int tune[64];
+        float durt[64];
+    public:
+        /*
+        -----------------------------------------------------------------------------------------------------------------------------
+        FUNCTIONS
+        -----------------------------------------------------------------------------------------------------------------------------
+        */
+        Axbuzzer();
+        void birthday(); //set birthday song
+        void music1();
+        void music2();
+        void odeToJoy(); //Ode to joy
+        void setDurt(float []);
+        void setTune(int []);
+        //-----------------------------------------------------------------------------------------------------------------------------
+};
+#endif
+  </code>
+</td></tr>
 <tr><td>Button (2)</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/button.png" align="center" width="25%"></td><td><code>using namespace std;
 #include <Axactuator.h>
 #include <Arduino.h>
