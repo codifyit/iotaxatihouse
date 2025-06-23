@@ -95,7 +95,18 @@ class Axbutton:public Axactuator{
 
 ## Connections diagrams
 
-<table><tr><td>Realy and white led<br><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/relay-white-led.png" align="center" width="50%"></td></tr>
+<table><tr><td>Realy and white led<br><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/relay-white-led.png" align="center" width="50%"></td>
+<td>
+<code>using namespace std;
+#ifndef Axrelay_h
+#define Axrelay_h
+
+class Axrelay:public Axactuator{
+
+};
+#endif</code>
+</td>
+</tr>
 <tr><td>Fan connection<br><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/fan-connection.png" align="center" width="50%"></td></tr>
 <tr><td>Button and yellow led<br><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/button-yellow-led.png" align="center" width="50%"></td></tr>
 <tr><td>Button and gas sensor<br><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/button-gas.png" align="center" width="50%"></td></tr>
