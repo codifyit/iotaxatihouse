@@ -92,7 +92,18 @@ class Axrelay:public Axactuator{
 };
 #endif</code>
 </td></tr>
-<tr><td>Photocell</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/photocell.png" align="center" width="25%"></td></tr>
+<tr><td>Photocell</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/photocell.png" align="center" width="25%"></td>
+<td>
+<code>using namespace std;
+#include <Axactuator.h>
+#ifndef Axlight_h
+#define Axlight_h
+
+class Axlight:public Axactuator{
+
+};
+#endif</code>
+</td></tr>
 <tr><td>Servo (2)</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/servo.png" align="center" width="25%"></td></tr>
 <tr><td>Fan</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/fan.png" align="center" width="25%"></td></tr>
 <tr><td>Water sensor</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/water.png" align="center" width="25%"></td></tr>
