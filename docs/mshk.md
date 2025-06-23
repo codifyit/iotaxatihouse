@@ -19,7 +19,20 @@ The sketch includes code for default behavior.
 <table><tr><th>Thing</th><th>Description</th></tr>
 <tr><td>Arduino Uno R3</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/arduino-uno.png" align="center" width="25%"></td></tr>
 <tr><td>Sensor Shield V5.0</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/sensor-shield.png" align="center" width="25%"></td></tr>
-<tr><td>Yellow led</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/yellow-led.png" align="center" width="25%"></td></tr>
+<tr><td>Yellow led</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/yellow-led.png" align="center" width="25%"></td>
+<td>
+<code>using namespace std;
+#include <Arduino.h>
+#include <Axactuator.h>
+#ifndef Axled_h
+#define Axled_h
+
+class Axled:public Axactuator{
+
+};
+#endif</code>
+</td>
+</tr>
 <tr><td>White led</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/white-led.png" align="center" width="25%"></td></tr>
 <tr><td>Passive buzzer</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/passive-buzzer.png" align="center" width="25%"></td>
 <td>
