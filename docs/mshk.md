@@ -104,7 +104,24 @@ class Axlight:public Axactuator{
 };
 #endif</code>
 </td></tr>
-<tr><td>Servo (2)</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/servo.png" align="center" width="25%"></td></tr>
+<tr><td>Servo (2)</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/servo.png" align="center" width="25%"></td>
+<td>
+<code>using namespace std;
+#include <Servo.h>
+#include <Axactuator.h>
+#ifndef Axservo_h
+#define Axservo_h         
+
+class Axservo:public Axactuator{
+    private: 
+        Servo servo;
+    public:
+        void attach(int pin);
+        void write(int what);
+};
+#endif</code>
+</td>
+</tr>
 <tr><td>Fan</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/fan.png" align="center" width="25%"></td></tr>
 <tr><td>Water sensor</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/water.png" align="center" width="25%"></td></tr>
 <tr><td>PIR sensor</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/pir.png" align="center" width="25%"></td></tr>
