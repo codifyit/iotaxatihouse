@@ -20,7 +20,7 @@ The sketch includes code for default behavior.
 <tr><td>Arduino Uno R3</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/arduino-uno.png" align="center" width="25%"></td></tr>
 <tr><td>Sensor Shield V5.0</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/sensor-shield.png" align="center" width="25%"></td></tr>
 <tr><td>Yellow led</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/yellow-led.png" align="center" width="25%"></td>
-<td>
+<td><pre>
 <code>using namespace std;
 #include <Arduino.h>
 #include <Axactuator.h>
@@ -31,7 +31,7 @@ class Axled:public Axactuator{
 
 };
 #endif</code>
-</td>
+</pre></td>
 </tr>
 <tr><td>White led</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/white-led.png" align="center" width="25%"></td><td>
 <code>using namespace std;
@@ -47,7 +47,7 @@ class Axled:public Axactuator{
 </tr>
 <tr><td>Passive buzzer</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/passive-buzzer.png" align="center" width="25%"></td>
 <td>
-  <code>#include <Axactuator.h>
+  <code>#include &lt;Axactuator.h&gt;
 #ifndef Axbuzzer_h
 #define Axbuzzer_h
 class Axbuzzer:public Axactuator{
