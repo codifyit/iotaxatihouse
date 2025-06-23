@@ -81,7 +81,17 @@ class Axbutton:public Axactuator{
         void resetPushCount();
 };
 #endif</code></td></tr>
-<tr><td>Relay (2)</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/relay.png" align="center" width="25%"></td></tr>
+<tr><td>Relay (2)</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/relay.png" align="center" width="25%"></td>
+<td>
+<code>using namespace std;
+#ifndef Axrelay_h
+#define Axrelay_h
+
+class Axrelay:public Axactuator{
+
+};
+#endif</code>
+</td></tr>
 <tr><td>Photocell</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/photocell.png" align="center" width="25%"></td></tr>
 <tr><td>Servo (2)</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/servo.png" align="center" width="25%"></td></tr>
 <tr><td>Fan</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/fan.png" align="center" width="25%"></td></tr>
