@@ -24,7 +24,7 @@ The sketch includes code for default behavior.
 <tr><td>Passive buzzer</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/passive-buzzer.png" align="center" width="25%"></td>
 <td>
   <code>
-    #include <Axactuator.h>
+#include <Axactuator.h>
 #ifndef Axbuzzer_h
 #define Axbuzzer_h
 class Axbuzzer:public Axactuator{
@@ -42,8 +42,7 @@ class Axbuzzer:public Axactuator{
         void setDurt(float []);
         void setTune(int []);
 };
-#endif
-  </code>
+#endif</code>
 </td></tr>
 <tr><td>Button (2)</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/button.png" align="center" width="25%"></td><td><code>using namespace std;
 #include <Axactuator.h>
