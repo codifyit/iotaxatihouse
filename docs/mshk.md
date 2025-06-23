@@ -23,8 +23,7 @@ The sketch includes code for default behavior.
 <tr><td>White led</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/white-led.png" align="center" width="25%"></td></tr>
 <tr><td>Passive buzzer</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/passive-buzzer.png" align="center" width="25%"></td>
 <td>
-  <code>
-#include <Axactuator.h>
+  <code>#include <Axactuator.h>
 #ifndef Axbuzzer_h
 #define Axbuzzer_h
 class Axbuzzer:public Axactuator{
