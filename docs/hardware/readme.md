@@ -135,9 +135,9 @@ class Axfan:public Axactuator{
 <tr><td>Water sensor</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/water.png" align="center" width="25%"></td>
 <td>
 <code>#include &lt;Axsensor.h&gt;
-#ifndef Axhygro_h
-#define Axhygro_h
-class Axhygro:public Axsensor{
+#ifndef Axrain_h
+#define Axrain_h
+class Axrain:public Axsensor{
 
 };
 #endif
@@ -162,8 +162,22 @@ class Axgas:public Axsensor{
 };  
 #endif</code></td></tr>
 <tr><td>LCD1602 display</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/display.png" align="center" width="25%"></td></tr>
-<tr><td>Humedity sensor</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/humedity.png" align="center" width="25%"></td></tr>
-  <tr><td>Bluetooth</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/bluetooth.png" align="center" width="25%"></td></tr>
+<tr><td>Humedity sensor</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/humedity.png" align="center" width="25%"></td>
+<td><code>#include &lt;Axsensor.h&gt;
+#ifndef Axhygro_h
+#define Axhygro_h
+
+class Axhygro:public Axsensor{
+
+};
+#endif</code></td></tr>
+  <tr><td>Bluetooth</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/bluetooth.png" align="center" width="25%"></td><td><code>#include &lt;Axthing.h&gt;
+#ifndef Axbluetooth_h
+#define Axbluetooth_h
+class Axbluetooth:public Axthing{
+    
+};
+#endif</code></td></tr>
 </table>
 
 ## Connections diagrams
