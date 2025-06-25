@@ -16,5 +16,9 @@ class Axthing
         int digRead(int pin);
         int anaRead(int pin);
         void anaWrite(int pin, int value);
+        int getDigPinMode(int pinIndex);
+        int getDigPinNum(int pinIndex);
+        int getAnaPinMode(int pinIndex);
+        int getAnaPinNum(int pinIndex);
 };
 #endif

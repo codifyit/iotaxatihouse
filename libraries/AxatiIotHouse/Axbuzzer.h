@@ -53,7 +53,6 @@ CLASS
 class Axbuzzer:public Axactuator{
     private:
         int length;
-        int tonepin;
         int tune[64];
         float durt[64];
     public:

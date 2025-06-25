@@ -23,7 +23,6 @@ FUNCTIONS IMPLEMENTATION
 */
 Axbuzzer::Axbuzzer()
 {
-  this->tonepin = 3; // set the signal end of passive buzzer to digital 3
   // set sound play frequency
   int tune[64] =
       {
@@ -116,47 +115,48 @@ Axbuzzer::Axbuzzer()
 ////////////////////////set birthday song//////////////////////////////////
 void Axbuzzer::birthday()
 {
-  tone(3, 294); // digital 3 outputs 294HZ sound
+  const int PIN = this->getDigPinNum();
+  tone(PIN, 294); // digital 3 outputs 294HZ sound
   delay(250);   // delay in 250ms
-  tone(3, 440);
+  tone(PIN, 440);
   delay(250);
-  tone(3, 392);
+  tone(PIN, 392);
   delay(250);
-  tone(3, 532);
+  tone(PIN, 532);
   delay(250);
-  tone(3, 494);
+  tone(PIN, 494);
   delay(500);
-  tone(3, 392);
+  tone(PIN, 392);
   delay(250);
-  tone(3, 440);
+  tone(PIN, 440);
   delay(250);
-  tone(3, 392);
+  tone(PIN, 392);
   delay(250);
-  tone(3, 587);
+  tone(PIN, 587);
   delay(250);
-  tone(3, 532);
+  tone(PIN, 532);
   delay(500);
-  tone(3, 392);
+  tone(PIN, 392);
   delay(250);
-  tone(3, 784);
+  tone(PIN, 784);
   delay(250);
-  tone(3, 659);
+  tone(PIN, 659);
   delay(250);
-  tone(3, 532);
+  tone(PIN, 532);
   delay(250);
-  tone(3, 494);
+  tone(PIN, 494);
   delay(250);
-  tone(3, 440);
+  tone(PIN, 440);
   delay(250);
-  tone(3, 698);
+  tone(PIN, 698);
   delay(375);
-  tone(3, 659);
+  tone(PIN, 659);
   delay(250);
-  tone(3, 532);
+  tone(PIN, 532);
   delay(250);
-  tone(3, 587);
+  tone(PIN, 587);
   delay(250);
-  tone(3, 532);
+  tone(PIN, 532);
   delay(500);
 }
 // Birthday song
@@ -171,9 +171,10 @@ void Axbuzzer::music2(void)
 }
 void Axbuzzer::odeToJoy(void) // play Ode to joy song
 {
+  const int PIN = this->getDigPinNum();
   for (int x = 0; x < this->length; x++)
   {
-    tone(this->tonepin, this->tune[x]);
+    tone(PIN, this->tune[x]);
     delay(300 * this->durt[x]);
   }
 }

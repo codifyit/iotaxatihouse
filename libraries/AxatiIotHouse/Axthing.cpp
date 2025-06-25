@@ -22,5 +22,17 @@ int Axthing::anaRead(int pinIndex){
     return analogRead(anaPines[pinIndex].getPinNumber());
 }
 void Axthing::anaWrite(int pinIndex, int value){
-    analogWrite(anaPines[pinIndex].getPinNumber(),value);
+    analogWrite((anaPines[pinIndex])->getPinNumber(),value);
+}
+int getDigPinMode(int pinIndex){
+    return (digPines[pinIndex])->getPinMode();
+}
+int getDigPinNum(int pinIndex){
+    return (this->digPines[pinIndex])->getPinNumber();
+}
+int getAnaPinMode(int pinIndex){
+    return (this->anaPines[pinIndex])->getPinMode();
+}
+int getAnaPinNum(int pinIndex){
+    return (this->anaPines[pinIndex])->getPinNumber();
 }
