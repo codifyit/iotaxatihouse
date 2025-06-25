@@ -122,7 +122,16 @@ class Axservo:public Axactuator{
 #endif</code>
 </td>
 </tr>
-<tr><td>Fan</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/fan.png" align="center" width="25%"></td></tr>
+<tr><td>Fan</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/fan.png" align="center" width="25%"></td><td>
+<code>using namespace std;
+#include &lt;Axactuator.h&gt;
+#ifndef Axfan_h
+#define Axfan_h
+class Axfan:public Axactuator{
+
+};
+#endif</code>
+</td></tr>
 <tr><td>Water sensor</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/water.png" align="center" width="25%"></td></tr>
 <tr><td>PIR sensor</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/pir.png" align="center" width="25%"></td></tr>
 <tr><td>MQ2 gas sensor</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/gas.png" align="center" width="25%"></td></tr>
