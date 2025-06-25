@@ -153,7 +153,14 @@ class Axinfrared: public Axsensor{
 };
 #endif</code>
 </td></tr>
-<tr><td>MQ2 gas sensor</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/gas.png" align="center" width="25%"></td></tr>
+<tr><td>MQ2 gas sensor</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/gas.png" align="center" width="25%"></td><td><code>#include &lt;Axsensor.h&gt;
+#ifndef Axgas_h
+#define Axgas_h
+
+class Axgas:public Axsensor{
+
+};  
+#endif</code></td></tr>
 <tr><td>LCD1602 display</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/display.png" align="center" width="25%"></td></tr>
 <tr><td>Humedity sensor</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/humedity.png" align="center" width="25%"></td></tr>
   <tr><td>Bluetooth</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/bluetooth.png" align="center" width="25%"></td></tr>
