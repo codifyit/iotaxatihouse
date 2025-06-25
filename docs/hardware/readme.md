@@ -17,8 +17,8 @@ The sketch includes code for default behavior.
 ## Things in the project
 
 <table><tr><th>Thing</th><th>Description</th><th>Pin mode</th></tr>
-<tr><td>Arduino Uno R3</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/arduino-uno.png" align="center" width="25%"></td></tr>
-<tr><td>Sensor Shield V5.0</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/sensor-shield.png" align="center" width="25%"></td></tr>
+<tr><td>Arduino Uno R3</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/arduino-uno.png" align="center" width="25%"></td><td></td></tr>
+<tr><td>Sensor Shield V5.0</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/sensor-shield.png" align="center" width="25%"></td><td></td></tr>
 <tr><td>Yellow led</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/yellow-led.png" align="center" width="25%"></td>
 <td></td>
 </tr>
@@ -48,8 +48,8 @@ The sketch includes code for default behavior.
 <td>
 </td></tr>
 <tr><td>MQ2 gas sensor</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/gas.png" align="center" width="25%"></td><td></td></tr>
-<tr><td>LCD1602 display</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/display.png" align="center" width="25%"></td></tr>
-<tr><td>Humedity sensor</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/humedity.png" align="center" width="25%"></td>
+<tr><td>LCD1602 display</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/display.png" align="center" width="25%"></td><td></td></tr>
+<tr><td>Humedity sensor</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/humedity.png" align="center" width="25%"><td></td></td>
 <td></td></tr>
   <tr><td>Bluetooth</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/bluetooth.png" align="center" width="25%"></td><td></td></tr>
 </table>
