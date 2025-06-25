@@ -132,7 +132,17 @@ class Axfan:public Axactuator{
 };
 #endif</code>
 </td></tr>
-<tr><td>Water sensor</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/water.png" align="center" width="25%"></td></tr>
+<tr><td>Water sensor</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/water.png" align="center" width="25%"></td>
+<td>
+<code>#include &lt;Axsensor.h&gt;
+#ifndef Axhygro_h
+#define Axhygro_h
+class Axhygro:public Axsensor{
+
+};
+#endif
+</code>
+</td></tr>
 <tr><td>PIR sensor</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/pir.png" align="center" width="25%"></td></tr>
 <tr><td>MQ2 gas sensor</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/gas.png" align="center" width="25%"></td></tr>
 <tr><td>LCD1602 display</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/display.png" align="center" width="25%"></td></tr>
