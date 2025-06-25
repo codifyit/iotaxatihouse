@@ -22,8 +22,8 @@ The sketch includes code for default behavior.
 <tr><td>Yellow led</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/yellow-led.png" align="center" width="25%"></td>
 <td><pre>
 <code>using namespace std;
-#include <Arduino.h>
-#include <Axactuator.h>
+#include &lt;Arduino.h&gt;
+#include &lt;Axactuator.h&gt;
 #ifndef Axled_h
 #define Axled_h
 
@@ -35,8 +35,8 @@ class Axled:public Axactuator{
 </tr>
 <tr><td>White led</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/white-led.png" align="center" width="25%"></td><td>
 <code>using namespace std;
-#include <Arduino.h>
-#include <Axactuator.h>
+#include &lt;Arduino.h&gt;
+#include &lt;Axactuator.h&gt;
 #ifndef Axled_h
 #define Axled_h
 
@@ -68,8 +68,8 @@ class Axbuzzer:public Axactuator{
 #endif</code>
 </td></tr>
 <tr><td>Button (2)</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/button.png" align="center" width="25%"></td><td><code>using namespace std;
-#include <Axactuator.h>
-#include <Arduino.h>
+#include &lt;Axactuator.h&gt;
+#include &lt;Arduino.h&gt;
 #ifndef Axbutton_h
 #define Axbutton_h
 class Axbutton:public Axactuator{
@@ -95,7 +95,7 @@ class Axrelay:public Axactuator{
 <tr><td>Photocell</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/photocell.png" align="center" width="25%"></td>
 <td>
 <code>using namespace std;
-#include <Axactuator.h>
+#include &lt;Axactuator.h&gt;
 #ifndef Axlight_h
 #define Axlight_h
 
@@ -107,8 +107,8 @@ class Axlight:public Axactuator{
 <tr><td>Servo (2)</td><td><img src="https://github.com/codifyit/iotaxatihouse/blob/main/docs/images/servo.png" align="center" width="25%"></td>
 <td>
 <code>using namespace std;
-#include <Servo.h>
-#include <Axactuator.h>
+#include &lt;Servo.h&gt;
+#include &lt;Axactuator.h&gt;
 #ifndef Axservo_h
 #define Axservo_h         
 
