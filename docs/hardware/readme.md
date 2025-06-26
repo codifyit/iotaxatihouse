@@ -1,3 +1,5 @@
+# Hardware description
+
 ## Things in the project
 
 <table><tr><th>Thing</th><th>Description</th><th>Pin mode</th></tr>
