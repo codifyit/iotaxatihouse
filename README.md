@@ -5,5 +5,5 @@
 
 ## Projects
 
-- [Using bluetooth web api to control the Axati High School Smart House (24-25 course)](https://github.com/codifyit/iotaxatihouse/blob/main/blesh/)<br>
+- [Using bluetooth web api to control the Axati High School Smart House (24-25 course)](https://github.com/codifyit/iotaxatihouse/tree/main/theproject)<br>
 The first project is about IoT with Arduino using different kinds of sensors.
