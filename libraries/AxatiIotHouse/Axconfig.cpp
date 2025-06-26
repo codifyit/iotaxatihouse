@@ -28,6 +28,7 @@ Axconfig::Axconfig(){
     axLed1.setDigPinMode(0,13,OUTPUT);
     axLed2.setDigPinMode(0,5,OUTPUT);
     axRelay.setDigPinMode(0,12,OUTPUT);
+    axBuzzer.setDigPinMode(0,3,OUTPUT);
 }
 
 void Axconfig::writeDigital(int digIO, int state){
