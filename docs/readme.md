@@ -16,8 +16,8 @@ The sketch includes code for default behavior.
 
 ## Hardware
 
-[Using bluetooth web api to control the Axati High School Smart House (24-25 course)](https://github.com/codifyit/iotaxatihouse/blob/main/docs/hardware/readme.md)
+[Description ](https://github.com/codifyit/iotaxatihouse/blob/main/docs/hardware/readme.md)
 
 ## Software
 
-[Using bluetooth web api to control the Axati High School Smart House (24-25 course)](https://github.com/codifyit/iotaxatihouse/blob/main/blesh/)
+[Description](https://github.com/codifyit/iotaxatihouse/blob/main/docs/software/readme.md)
