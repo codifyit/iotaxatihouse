@@ -15,4 +15,9 @@ The sketch includes code for default behavior.
 - When steam sensor detects rains, the servo 2 will be activated, the window will be closed automatically, otherwise, the window will be open.
 
 ## Hardware
+
+[Using bluetooth web api to control the Axati High School Smart House (24-25 course)](https://github.com/codifyit/iotaxatihouse/blob/main/blesh/)
+
 ## Software
+
+[Using bluetooth web api to control the Axati High School Smart House (24-25 course)](https://github.com/codifyit/iotaxatihouse/blob/main/blesh/)
